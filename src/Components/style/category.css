@@ -1,0 +1,25 @@
+.card:hover{
+    transform: translateY(-6px);
+}
+.card{
+    transition: 0.2s;
+    overflow: hidden;
+}
+.card img{
+    transition: 0.6s;
+}
+.card img:hover{
+    transform: scale(1.05);
+}
+#img_Details{
+    transition: 0.6s;
+}
+#img_Details:hover{
+  transform: translateY(-10px);
+}
+li img{
+    transition: 0.3s;
+}
+li img:hover{
+  transform: translateY(-5px);
+}
